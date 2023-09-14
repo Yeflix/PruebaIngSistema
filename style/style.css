@@ -84,7 +84,6 @@ li {
     align-items: center;
     justify-content: center;
 
-    
 }
 .prueba{
     color: aliceblue;
@@ -128,7 +127,7 @@ li {
     content: "";
     position: absolute;
     height: 431px;
-    width: 280px;
+    width: 279px;
     background-color: #101010;
     border-radius: 10%;
     box-shadow: inset 16px 14px 20px #0000008c;
