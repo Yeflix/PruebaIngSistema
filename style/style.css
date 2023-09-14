@@ -4,6 +4,7 @@
     box-sizing: border-box;    
 }
 html {
+    
     font-size: 16px;
 }
 body { 
@@ -149,6 +150,7 @@ li {
 }
 
 @media (min-width: 380px) {
+    
     .prueba{
     color: aliceblue;
     width: 85%;
