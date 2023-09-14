@@ -72,15 +72,16 @@ li {
 
 #registro{
     height: 450px;
-    width: 350px;
-    background-color: #101010;
-    border-radius: 10%;
-    box-shadow: 16px 14px 20px #0000008c;
-    position: relative;
-    overflow: hidden;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+        width: 300px;
+        background-color: #101010;
+        border-radius: 10%;
+        box-shadow: 16px 14px 20px #0000008c;
+        position: relative;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
 }
 .prueba{
     color: aliceblue;
@@ -123,7 +124,7 @@ li {
     content: "";
     position: absolute;
     height: 431px;
-    width: 335px;
+    width: 279px;
     background-color: #101010;
     border-radius: 10%;
     box-shadow: inset 16px 14px 20px #0000008c;
@@ -189,6 +190,28 @@ li {
     position: relative;
     bottom: 35px;
 
+    }
+    #registro{
+        height: 450px;
+        width: 300px;
+        background-color: #101010;
+        border-radius: 10%;
+        box-shadow: 16px 14px 20px #0000008c;
+        position: relative;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    #registro:after {
+        content: "";
+    position: absolute;
+    height: 431px;
+    width: 279px;
+    background-color: #101010;
+    border-radius: 10%;
+    box-shadow: inset 16px 14px 20px #0000008c;
     }
 }
 
