@@ -52,6 +52,8 @@ input{
     border-radius: 12px;
     padding: 15px;
     font-size: 1rem;
+    z-index: 1;
+
 }
 input:hover{
     color: rgb(104, 55, 0);
@@ -72,15 +74,16 @@ li {
 
 #registro{
     height: 450px;
-        width: 300px;
-        background-color: #101010;
-        border-radius: 10%;
-        box-shadow: 16px 14px 20px #0000008c;
-        position: relative;
-        overflow: hidden;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+    width: 300px;
+    background-color: #101010;
+    border-radius: 10%;
+    box-shadow: 16px 14px 20px #0000008c;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
     
 }
 .prueba{
@@ -125,10 +128,11 @@ li {
     content: "";
     position: absolute;
     height: 431px;
-    width: 279px;
+    width: 280px;
     background-color: #101010;
     border-radius: 10%;
     box-shadow: inset 16px 14px 20px #0000008c;
+
 }
 .prueba::after {
     content: "";
