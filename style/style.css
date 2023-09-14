@@ -139,7 +139,7 @@ li {
     top: 15px;
 }
 
-@media (min-width: 425px) {
+@media (min-width: 380px) {
     .prueba{
     color: aliceblue;
     width: 85%;
