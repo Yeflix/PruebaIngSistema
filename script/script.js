@@ -11,7 +11,7 @@ function desaparecer() {
 }
 function aparecer() {
     let inputNombre = document.getElementById("name2").value
-    alert("bienvenid@ " + inputNombre)
+    alert("Hola " + inputNombre + " !!")
     alert("Si estas en esta prueba, felicidades!! eso quiere decir que estas capacitado para aprobar esta prueba")
     alert("Que tengas Mucho Exito y recuerda. El conocimiento es poder")
     
