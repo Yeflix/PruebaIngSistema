@@ -149,6 +149,30 @@ li {
 
 }
 
+#resultadoFinal {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+fieldset {
+    color: aliceblue;
+    width: 90%;
+    background-color: #101010;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.preguntasResultado
+{
+    margin: 2%;
+    
+}
+
 @media (min-width: 380px) {
     
     .prueba{
