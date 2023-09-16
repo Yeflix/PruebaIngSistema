@@ -30,11 +30,11 @@ const opcion2 = document.querySelector('#P2');
 const opcion3 = document.querySelector('#P3');
 
 if (opcion1.checked) {
- crearMensaje1('La respuesta 1 de la primera pregunta es la incorrecta');
+ crearMensaje1('Lo lamento, fallaste en la 1ra pregunta😕');
 } else if (opcion2.checked) {
- crearMensaje1('La respuesta 2 de la primera pregunta es la correcta');
+ crearMensaje1('Increible!! La respuesta de la 1era pregunta es correcta🥳');
 } else if (opcion3.checked) {
- crearMensaje1('La respuesta 3 de la primera pregunta es la correcta');
+ crearMensaje1('Lo lamento, fallaste en la 1ra pregunta😕');
 } else {
  crearMensaje1('Ninguna opción está seleccionada');
 }
@@ -44,11 +44,11 @@ const opcion5 = document.querySelector('#P5');
 const opcion6 = document.querySelector('#P6');
 
 if (opcion4.checked) {
-    crearMensaje2('La respuesta 1 de la segunda pregunta es la correcta');
+    crearMensaje2('Increible!! La respuesta de la 2da pregunta es correcta🥳');
    } else if (opcion5.checked) {
-    crearMensaje2('La respuesta 2 de la segunda pregunta  es la incorrecta');
+    crearMensaje2('Lo lamento, fallaste en la 2da pregunta😕');
    } else if (opcion6.checked) {
-    crearMensaje2('La respuesta 3 de la segunda pregunta  es la incorrecta');
+    crearMensaje2('Lo lamento, fallaste en la 2da pregunta😕');
    } else {
     crearMensaje2('Ninguna opción está seleccionada');
    }
@@ -58,11 +58,11 @@ const opcion8 = document.querySelector('#P8');
 const opcion9 = document.querySelector('#P9');
 
 if (opcion7.checked) {
-    crearMensaje3('La respuesta 1 de la tercera pregunta es la incorrecta');
+    crearMensaje3('Lo lamento, fallaste en la 3ra pregunta😕');
    } else if (opcion8.checked) {
-    crearMensaje3('La respuesta 2 de la tercera pregunta  es la correcta');
+    crearMensaje3('Increible!! La respuesta de la 3ra pregunta es correcta🥳');
    } else if (opcion9.checked) {
-    crearMensaje3('La respuesta 3 de la tercera pregunta  es la incorrecta');
+    crearMensaje3('Lo lamento, fallaste en la 3ra pregunta😕');
    } else {
     crearMensaje3('Ninguna opción está seleccionada');
    }
@@ -73,11 +73,11 @@ const opcion11 = document.querySelector('#P11');
 const opcion12 = document.querySelector('#P12' );
 
 if (opcion10.checked) {
-    crearMensaje4('La respuesta 1 de la cuarta pregunta es la incorrecta');
+    crearMensaje4('Lo lamento, fallaste en la 4ta pregunta😕');
    } else if (opcion11.checked) {
-    crearMensaje4('La respuesta 2 de la cuarta pregunta  es la incorrecta');
+    crearMensaje4('Lo lamento, fallaste en la 4ta pregunta😕');
    } else if (opcion12.checked) {
-    crearMensaje4('La respuesta 3 de la cuarta pregunta  es la correcta');
+    crearMensaje4('Increible!! La respuesta de la 4ta pregunta es correcta🥳');
    } else {
     crearMensaje4('Ninguna opción está seleccionada');
    }
@@ -87,11 +87,11 @@ const opcion14 = document.querySelector('#P14');
 const opcion15 = document.querySelector('#P15');
 
 if (opcion13.checked) {
-    crearMensaje5('La respuesta 1 de la quinta pregunta es la incorrecta');
+    crearMensaje5('Lo lamento, fallaste en la 5ta pregunta😕');
    } else if (opcion14.checked) {
-    crearMensaje5('La respuesta 2 de la quinta pregunta  es la correcta');
+    crearMensaje5('Increible!! La respuesta de la 5ta pregunta es correcta🥳');
    } else if (opcion15.checked) {
-    crearMensaje5('La respuesta 3 de la quinta pregunta  es la incorrecta');
+    crearMensaje5('Lo lamento, fallaste en la 5ta pregunta😕');
    } else {
     crearMensaje5('Ninguna opción está seleccionada');
    }
@@ -101,11 +101,11 @@ const opcion17 = document.querySelector('#P17');
 const opcion18 = document.querySelector('#P18');
 
 if (opcion16.checked) {
-    crearMensaje6('La respuesta 1 de la sexta pregunta es la incorrecta');
+    crearMensaje6('Lo lamento, fallaste en la 6ta pregunta😕');
    } else if (opcion17.checked) {
-    crearMensaje6('  La respuesta 2 de la sexta pregunta  es la correcta');
+    crearMensaje6('Increible!! La respuesta de la 6ta pregunta es correcta🥳');
    } else if (opcion18.checked) {
-    crearMensaje6('  La respuesta 3 de la sexta pregunta  es la incorrecta');
+    crearMensaje6('Lo lamento, fallaste en la 6ta pregunta😕');
    } else {
     crearMensaje6('Ninguna opción está seleccionada');
    }
@@ -115,11 +115,11 @@ const opcion20 = document.querySelector('#P20');
 const opcion21 = document.querySelector('#P21');
 
 if (opcion19.checked) {
-    crearMensaje7('  La respuesta 1 de la septima pregunta es la correcta');
+    crearMensaje7('Increible!! La respuesta de la 7ma pregunta es correcta🥳');
    } else if (opcion20.checked) {
-    crearMensaje7('  La respuesta 2 de la septima pregunta  es la incorrecta');
+    crearMensaje7('Lo lamento, fallaste en la 7ma pregunta😕');
    } else if (opcion21.checked) {
-    crearMensaje7('  La respuesta 3 de la septima pregunta  es la incorrecta');
+    crearMensaje7('Lo lamento, fallaste en la 7ma pregunta😕');
    } else {
     crearMensaje7('Ninguna opción está seleccionada');
    } 
@@ -131,11 +131,11 @@ const opcion23 = document.querySelector('#P23');
 const opcion24 = document.querySelector('#P24');
 
 if (opcion22.checked) {
-    crearMensaje8('  La respuesta 1 de la octava pregunta es la incorrecta');
+    crearMensaje8('Lo lamento, fallaste en la 8va pregunta😕');
    } else if (opcion23.checked) {
-    crearMensaje8('  La respuesta 2 de la octava pregunta  es la incorrecta');
+    crearMensaje8('Lo lamento, fallaste en la 8va pregunta😕');
    } else if (opcion24.checked) {
-    crearMensaje8('  La respuesta 3 de la octava pregunta  es la correcta');
+    crearMensaje8('Increible!! La respuesta de la 8va pregunta es correcta🥳');
    } else {
     crearMensaje8('Ninguna opción está seleccionada');
    } 
@@ -145,11 +145,11 @@ const opcion26 = document.querySelector('#P26');
 const opcion27 = document.querySelector('#P27');
 
 if (opcion25.checked)  {
-    crearMensaje9('  La respuesta 1 de la novena pregunta es la correcta');
+    crearMensaje9('Increible!! La respuesta de la 9na pregunta es correcta🥳');
    } else if (opcion26.checked) {
-    crearMensaje9('  La respuesta 2 de la novena pregunta  es la incorrecta');
+    crearMensaje9('Lo lamento, fallaste en la 9na pregunta😕');
    } else if (opcion27.checked) {
-    crearMensaje9('  La respuesta 3 de la novena pregunta  es la incorrecta');
+    crearMensaje9('Lo lamento, fallaste en la 9na pregunta😕');
    } else {
     crearMensaje9('Ninguna opción está seleccionada');
    }   }

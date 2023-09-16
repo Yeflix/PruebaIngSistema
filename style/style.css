@@ -162,7 +162,9 @@ fieldset {
     background-color: #101010;
     font-size: 1.5rem;
     display: flex;
-    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
     flex-wrap: wrap;
 
 }
@@ -170,9 +172,71 @@ fieldset {
 .preguntasResultado
 {
     margin: 2%;
-    
+    border: solid 2px;
+    padding: 10px;
+    border-radius:30px ;
 }
 
+#yefri, #yefri5, #yefri9 {
+    color: yellow ;
+}
+
+#yefri2, #yefri6, #yefri8 {
+    color: orange ;
+}
+
+#yefri3, #yefri4, #yefri7 {
+    color: orangered ;
+}
+h4{
+    color: aquamarine;
+}
+
+legend {
+    
+    animation: rainbow 2.5s linear;
+      animation-iteration-count: infinite;
+  
+  }
+  
+  @keyframes rainbow{
+    100%,0%{
+      color: rgb(255,0,0);
+    }
+    8%{
+      color: rgb(255,127,0);
+    }
+    16%{
+      color: rgb(255,255,0);
+    }
+    25%{
+      color: rgb(127,255,0);
+    }
+    33%{
+      color: rgb(0,255,0);
+    }
+    41%{
+      color: rgb(0,255,127);
+    }
+    50%{
+      color: rgb(0,255,255);
+    }
+    58%{
+      color: rgb(0,127,255);
+    }
+    66%{
+      color: rgb(0,0,255);
+    }
+    75%{
+      color: rgb(127,0,255);
+    }
+    83%{
+      color: rgb(255,0,255);
+    }
+    91%{
+      color: rgb(255,0,127);
+    }
+  }
 @media (min-width: 380px) {
     
     .prueba{
